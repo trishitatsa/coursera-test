@@ -1,0 +1,121 @@
+* {
+          box-sizing: border-box;
+       }
+    h1 {
+    	background: blue;
+    	color: white;
+    	text-align: center;
+      font-family: "Times New Roman", Times, serif;
+      margin-bottom: 50px;
+       }
+    h2 {
+    	position: relative;
+    	text-align: right;
+    	display: block;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      float: right;
+      padding: 5px;
+      border: 1px solid black;
+
+    }
+
+
+    section {
+       border: 1px solid black ;
+       background-color: #D1F2EB;
+       width: 80%;
+       min-height: 300px;
+       font-family: Helvetica;
+       color: #85929E ;
+       }
+    section>p{
+      text-align: justify;
+      padding:10px;
+      margin-top: 55px;
+
+    }
+
+    .row {
+       width: 100%;
+      }
+
+    .op1{
+      background: #A93226;
+      color: #D0D3D4;
+    }
+    .op1>p{
+      font-family: "Lucida Console", Courier, monospace;
+    }
+    .op1>h2{
+      background: #D0D3D4;
+      color: #A93226;
+    }
+    .op2{
+      background: #2980B9;
+      color: #F9E79F ;
+    }
+    .op2>p{
+      font-family: "Lucida Console", Courier, monospace;
+    }
+    .op2>h2{
+      background: #F9E79F;
+      color:#2980B9;
+      position: relative;
+    }
+    .op3{
+      background: #2ECC71;
+      color: #FBEEE6 ;
+    }
+    .op3>p{
+      font-family: "Lucida Console", Courier, monospace;
+    }
+    .op3>h2{
+      background: #FBEEE6;
+      color: #2ECC71;
+    }
+
+    @media (min-width: 992px){
+    .op1, .op2, .op3 {
+    float: left;
+    margin: .60%;
+     }
+    .op1 {
+      width: 32%;
+     }
+    .op2 {
+      width: 32%;
+     }
+    .op3 {
+      width: 32%;
+     }
+    }
+    @media (min-width: 768px) and (max-width: 991px){
+    .op1, .op2, .op3 {
+    float: left;
+    margin: .50%;
+     }
+    .op1 {
+      width: 49%;
+     }
+    .op2 {
+      width: 49%;
+     }
+    .op3 {
+      width: 99%;
+     }
+    }
+    @media (max-width: 767px){
+    .op1, .op2, .op3 {
+    margin: 15px .5% 15px .5%;
+     }
+    .op1 {
+      width: 99%;
+     }
+    .op2 {
+      width: 99%;
+     }
+    .op3 {
+      width: 99%;
+     }
+    }
